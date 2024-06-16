@@ -1,0 +1,5 @@
+.idea
+__pycache__
+data/expenses.txt
+data/old_expenses.txt
+venv

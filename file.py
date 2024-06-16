@@ -50,6 +50,7 @@ class File:
             for line in lines:
                 filter_line = ''.join(i for i in line if not i.isdigit())
                 # check if line contains month
+                mothly_expenses_dict = {}
                 if filter_line.strip() in months:
                     self.modified_data.append(line)
                 # check if line is empty
